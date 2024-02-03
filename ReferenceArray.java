@@ -1,0 +1,21 @@
+// Array Reference 
+public class ReferenceArray
+{
+	public static void main(String[] args)
+	{
+		int a[] = {3,5,9,7};
+		int n = a.length;
+
+		int b[] = new int [n];
+		b = a;
+		b[0] = 5;
+
+		System.out.println("Original array ");
+		for (int i = 0; i < n; i++)
+			System.out.println(a[i] + " ");
+
+		 System.out.println("\nReferenced Array ");
+		 for (int i = 0; i < n; i++)
+			 System.out.print(b[i] + " ");
+	}
+}

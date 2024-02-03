@@ -1,0 +1,15 @@
+public class FibinacciExce
+{
+	public static void main(String[] args)
+	{
+
+		System.out.println(Fibinacci.fib(6));
+
+
+		// Print nth fibinacci nunmber.
+		for (int i = 0; i <= 15; i++)
+		{
+			System.out.println(Fibinacci.fib(i));
+		}
+	}
+}

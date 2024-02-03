@@ -1,0 +1,18 @@
+public class Fact2_Method
+{
+	public static int fact(int n)
+	{
+		if (n==0)
+		{
+			return 1;
+		}
+
+		return n * fact(n-1);
+	}
+
+	public static void main(String[] args)
+	{
+		System.out.println("This is Factorial Value:");
+		System.out.println(fact(5));
+	}
+}

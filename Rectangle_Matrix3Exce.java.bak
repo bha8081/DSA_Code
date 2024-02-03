@@ -1,0 +1,32 @@
+import java.io.*;
+import java.util.*;
+
+public class Rectangle_Matrix3Exce
+{
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number of Row:");
+		int r = sc.nextInt();
+		System.out.println("Enter the number of Columns:");
+		int c = sc.nextInt();
+
+		int[][] matrix = new int[r][c];
+		System.out.println("Enter the elements of matrices:");
+		for(int i=0; i < r; i++)
+		{
+			for(int j=0; j < c; j++)
+			{
+				matrix[i][j] = sc.nextInt();
+			}
+		}
+		System.out.println("Enter the value of l1, l2, r1, r2");
+		int l1 = sc.nextInt();
+		int l2 = sc.nextInt();
+		int r1 = sc.nextInt();
+		int r2 = sc.nextInt();
+        
+		Rectangle_Matrix3.solve(matrix, l1, l2, r1, r2);
+		System.out.println(""+solve(matrix, l1, l2, r1, r2));
+	}
+}

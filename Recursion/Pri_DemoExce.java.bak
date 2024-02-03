@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Pri_DemoExce
+{
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Number: ");
+		int a = sc.nextInt();
+
+		Pri_Demo.trs();
+	}
+}

@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util.*;
+
+public class TargetDemoExce
+{
+/*	public static void main(String[] args)
+	{
+		int[] ans = sortArrayByPriinty(a);
+		 for (int element: ans)
+		 {
+			 System.out.println(element + " ");
+		 }
+		
+	}
+} */

@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Find_GcdExce
+{
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter the first Value: ");
+		int a = sc.nextInt();
+
+		System.out.println("Enter the Second Value: ");
+		int b = sc.nextInt();
+
+		int r = Find_Gcd.find(a, b);
+		System.out.println("GCD of Given Number: \n" +r);
+	}
+}

@@ -1,0 +1,18 @@
+// Calculate GCD.
+public class Find_Gcd
+{
+	public static int find(int a, int b)
+	{
+		if (b == 0)
+		{
+			return a;
+		}
+
+		return find(b, a % b);
+
+       //int ans = find(b, a % b);
+	   //int lcm = (a * b) / ans;
+	  // return lcm;
+
+	}
+}

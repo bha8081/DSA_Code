@@ -1,0 +1,5 @@
+// give na number n. find the sum of natural number's till n but with alternate sings.
+
+public class Sum_Allternat
+{
+}

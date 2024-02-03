@@ -1,0 +1,13 @@
+public class SumOf_NumberExce
+{
+	public static void main(String[] args)
+	{
+		//SumOf_Number.sumof(12345);
+
+		int a = SumOf_Number.sumof(12345);
+		
+		//System.out.println(SumOf_Number.sumof(12345));
+		System.out.println(a);
+
+	}
+}

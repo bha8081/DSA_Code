@@ -1,0 +1,7 @@
+public class Factoral_TwoExce
+{
+	public static void main(String[] args)
+	{
+    	System.out.println(Factoral_Two.fact(5));
+	}
+}

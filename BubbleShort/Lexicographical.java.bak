@@ -1,0 +1,41 @@
+/* Give an array of names of the fruits; you are supposed to sort it in lexicographical order using
+   the selection sort.
+
+   INPUTE : ["bhavesh", "shubham", "nitesh", "prince","dev"]
+*/
+
+import java.io.*;
+import java.util.*;
+
+public class Lexicographical
+{
+	public static void sortName(String[] args)
+	{
+		int n = name.length;
+		for (int i = 0; i < n-1; i++)
+		{
+			int min_index = i;
+			for (int j = i+1; j < n; j++)
+			{
+				if(name[j].compareTo(name[min_index]) < 0)
+				{
+					min_index = j;
+				}
+			}
+			//swap name[min_index], name[i]
+			String temp = name[i];
+			name[i] = name[min_index];
+			name[min_index] = temp;
+		}
+	}
+
+	public static void main(String[] args)
+	{
+		String[] name = {"bhavesh", "shubham", "nitesh", "prince", "dev"};
+		sortName(name);
+		for(String val : name)
+		{
+			System.out.print(val + " ");
+		}
+	}
+}

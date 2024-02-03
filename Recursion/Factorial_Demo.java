@@ -1,0 +1,21 @@
+// Find the Factorial of n number.
+
+public class Factorial_Demo
+{
+	public static int fact(int n)
+	{
+		//base case.
+		if (n == 0)
+		{
+			return 1;
+		}
+
+		//smaller problem - recursive work.
+		int smallAns = fact(n-1);
+
+		// big problem.
+
+		int ans = n * smallAns;
+		return ans;
+	}
+}

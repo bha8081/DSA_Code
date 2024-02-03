@@ -1,0 +1,11 @@
+public class Reverse2Exce
+{
+	public static void main(String[] args)
+	{
+		int a = 23;
+		int b = 20;
+		int[] arr = {13,56,35,24,54,31};
+		  reverseArray(arr);
+		  printArray(arr);
+	}
+}

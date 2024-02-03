@@ -1,0 +1,26 @@
+// Array in recurtion.
+
+public class Find_Index
+{   
+	public static int find(int[] arr, int idx)
+	{
+		//base case.
+		if (idx == arr.length)
+		{
+			return 0 ;
+		}
+
+		System.out.println(arr[idx]);
+
+
+		return find(arr, idx + 1);
+
+		
+	}
+	public static void main(String[] args)
+	{
+		int [] arr = {12, 43, 65, 34, 24};
+
+		System.out.println(find(arr, 0));
+	}
+}

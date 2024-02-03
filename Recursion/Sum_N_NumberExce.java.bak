@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Sum_N_NumberExce
+{
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number: ");
+		int n = sc.nextInt();
+
+		//int a = Sum_N_Number.sum(n);
+        //System.out.println("Sum of the 1 to Given Number: " +a);
+
+		//Sum_N_Number.sum(n);
+		System.out.println("Sum of the 1 to Given Number: " +Sum_N_Number.sum(n));
+
+	}
+}

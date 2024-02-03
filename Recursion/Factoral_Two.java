@@ -1,0 +1,14 @@
+// find factorial of number.
+
+public class Factoral_Two
+{
+	public static int fact(int n)
+	{
+		if (n == 0)
+		{
+			return 1;
+		}
+
+		return n * fact(n-1);
+	}
+}

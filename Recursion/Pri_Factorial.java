@@ -1,0 +1,23 @@
+// Q Find the 67 factorial value;
+
+public class Pri_Factorial
+{
+	public static double fact(double n)
+	{
+		if (n==0)
+		{
+			return 1;
+		}
+		//recursiev work.
+		double fa = fact(n-1);
+
+		// self work.
+		double ans = n * fa;
+		return ans;
+	}
+
+/*	public static void main(String[] args)
+	{
+		System.out.println(fact(67));
+	} */
+}

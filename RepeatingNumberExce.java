@@ -1,0 +1,20 @@
+
+
+public class RepeatingNumberExce
+{
+	public static int firstRepeatingNumber(int[] arr)
+	{
+		int n = arr.length;
+
+        for (int i=0; i<n; i++) // First Number.
+        {
+			for (int j=i+1; j<n; j++)//Second Number
+			{
+              if (arr[i]==arr[j]) //found answer.
+              {
+                return arr[i];
+              }
+			}
+        }
+	}
+}

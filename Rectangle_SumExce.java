@@ -1,0 +1,36 @@
+import java.io.*;
+import java.util.Scanner;
+
+public class Rectangle_SumExce
+{
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter number of rows:");
+		int r = sc.nextInt();
+
+		System.out.println("Enter number of column:");
+		int c = sc.nextInt();
+		int[][] matrix = new int[r][c];
+		int totalElements = r * c;
+		System.out.println("Enter " + totalElements + "values");
+		for (int i = 0; i < r; i++)
+		{
+			for (int j = 0; j < c; j++)
+			{
+				matrix[i][j] = sc.nextInt();
+			}
+		}
+
+		System.out.println("Enter rectangle boundaries l1, l2, r1 ,r2");
+			int l1 = sc.nextInt();
+		    int r1 = sc.nextInt();
+			int l2 = sc.nextInt();
+			int r2 = sc.nextInt();
+
+		//System.out.println("Rectangle Sum " +findSum(matrix, l1, r1, l2, r2));
+		System.out.println("Sum of the Rectangle:");
+	    Rectangle_Sum.findSum(matrix, l1, r1, l2, r2);
+		//System.out.println("Sum of the Rectangle:" +findSum(matrix, l1, r1, l2, r2));
+	}
+}
